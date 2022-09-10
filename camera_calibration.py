@@ -44,6 +44,6 @@ undistorted_image= cv2.undistort(image_test,mtx,dist, None, mtx)
 
 with open('mtx.npy', 'wb') as f:
     np.save(f, mtx)
-    
+
 with open('dist.npy', 'wb') as f:
     np.save(f, dist)
